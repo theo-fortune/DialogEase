@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dialog</title>
+    <link rel="shortcut icon" href="./image/avatar.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <dialog id="d">
+      <form method="dialog">
+        <div class="dialog__container">
+          <div class="dialog__container-heading">
+            <p class="heading">What's up</p>
+            <button onclick="d.close()" class="exit">&times;</button>
+          </div>
+          <div class="dialog__container-body">
+            <p class="text">I just wanted to tell you that Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veritatis nam porro qui alias quasi quia pariatur nulla aperiam! Illo quibusdam neque asperiores tenetur cupiditate, corrupti tempore fugiat eligendi quia!</p>
+
+            <p class="text">However, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, voluptatibus laudantium harum ex qui distinctio numquam odit adipisci in, doloribus nulla cupiditate, accusamus obcaecati molestias aperiam? Recusandae laboriosam quaerat a nihil vero qui accusantium omnis!</p>
+
+            <p class="text">And also Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos, molestiae iure corrupti dolorem ut id similique omnis praesentium optio dolores delectus doloremque aut corporis, nesciunt et minima, magnam autem.</p>
+
+            <p class="text">Finally Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi nemo commodi aperiam repellendus aspernatur! Dolore, obcaecati praesentium aperiam consectetur, doloribus qui repellat, modi repudiandae distinctio necessitatibus voluptate! Accusantium maxime aspernatur ab harum corporis saepe vel quo totam aliquam provident aperiam enim modi neque natus nesciunt accusamus culpa, deleniti magnam debitis.</p>
+
+            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem voluptas reprehenderit nihil maiores consectetur quas vitae, quo esse. Illum quam voluptates eaque qui expedita nostrum aut autem fugit dignissimos, voluptatibus inventore sapiente cupiditate optio accusamus aspernatur odio cumque excepturi aliquid earum unde. Quibusdam saepe consectetur labore odio sapiente adipisci vero perferendis mollitia obcaecati voluptates magni numquam quasi, nostrum pariatur, ea sunt aliquid fugiat dolorum delectus dolores ipsam excepturi repellat eum! Officia iusto, dolores tempora qui suscipit ducimus distinctio voluptates id expedita cumque dicta porro unde, veritatis ut, vitae natus rem?</p>
+          </div>
+        </div>
+      </form>
+    </dialog>
+    <button onclick="d.showModal()">Hey Babe</button>
+  </body>
+</html>
